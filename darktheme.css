@@ -1,0 +1,80 @@
+* {
+	background-color: #1e2938 !important;
+	color: #d6dde4 !important;
+	border-color: #2e3d54 !important;
+}
+
+a {
+	color: #64b5f6 !important;
+}
+
+u,
+.highlight {
+	color: rgb(231, 76, 60) !important;
+}
+
+/* button系 */
+
+button,
+button *,
+.Mrphs-toolTitleNav__link,
+.Mrphs-toolTitleNav__link *,
+input,
+input *,
+select,
+select * {
+	background-color: #2a364a !important;
+	border-color: #64b5f6 !important;
+}
+
+/* 授業選択ボタン系 */
+
+.Mrphs-sitesNav__menuitem,
+.Mrphs-sitesNav__menuitem * {
+	background-color: #2a364a !important;
+	border-color: #2a364a !important;
+}
+
+/* ヘッダー系 */
+.Mrphs-mainHeader,
+.Mrphs-skipNav__menuitem {
+	box-shadow: 0 1px 0 #2e3d54 !important;
+}
+
+a::after {
+	border-color: #2e3d54 !important;
+}
+
+.view-all-sites-btn,
+.all-sites-icon {
+	background-color: #1e2938 !important;
+}
+
+/* バックグラウンド系 */
+#portalMask,
+.user-dropdown-overlay {
+	opacity: 0;
+}
+
+.Mrphs-footer--details__info {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* 白セカンダリ系 */
+h2,
+small {
+	color: #b5bac0 !important;
+}
+
+/* alert系 */
+
+.sak-banner-warn {
+	background-color: #514e2c !important;
+	border-left: calc(16px / 2) solid #f1ba1b !important;
+}
+
+/* ロゴ塗りつぶすのはまずい系 */
+.Mrphs-footer--poweredby__image {
+	background-color: white !important;
+	padding: 10px;
+}
